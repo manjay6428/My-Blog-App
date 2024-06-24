@@ -146,6 +146,7 @@ const CustomCard: FC<ICustomCard> = ({
         setOpenDialog={setDeleteConfirmationDialog}
         handleDeleteBlogById={handleDeleteBlogById}
         getCurrentDeleteBlog={getCurrentDeleteBlog}
+        setDeleteSelectedItems={setDeleteSelectedItems}
       />
     </div>
   );
