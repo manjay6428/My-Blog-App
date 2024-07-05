@@ -2,8 +2,6 @@
 import React, { FC, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
 import { User } from "next-auth";
 import AccountMenu from "../Account-Menu/AccountMenu";
 interface INavbar {
