@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function  Home() {
+  
   return (
     <div className=" min-h-screen flex justify-center items-center bg-gradient-to-r from-purple-500 to-blue-600 p-6">
         <div className="mx-auto flex flex-col justify-center items-center">

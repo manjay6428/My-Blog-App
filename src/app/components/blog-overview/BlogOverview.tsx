@@ -23,7 +23,7 @@ const BlogOverview: FC<IBlogOverview> = ({ blogList }) => {
   const [isMultipleDeleteSelected, setMultipleDeleteSelected] = useState(false);
   const [deleteSelectedItems,setDeleteSelectedItems]=useState<string[]>([]);
   const[multiDeleteDialog, setMultiDeleteDialog]=useState(false);
-
+  
   const router = useRouter();
 
   useEffect(() => {
